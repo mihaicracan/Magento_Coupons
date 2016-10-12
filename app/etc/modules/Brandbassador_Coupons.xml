@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<!--
+/**
+ * Magento
+ *
+ * @category    Brandbassador
+ * @package     Brandbassador_Coupons
+ */
+-->
+<config>
+    <modules>
+        <Brandbassador_Coupons>
+            <active>true</active>
+            <codePool>community</codePool>
+        </Brandbassador_Coupons>
+    </modules>
+</config>

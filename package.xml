@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<package>
+    <name>Brandbassador_Coupons</name>
+    <version>1.2.0</version>
+    <stability>stable</stability>
+    <license uri="http://opensource.org/licenses/osl-3.0.php">OSL v3.0</license>
+    <channel>community</channel>
+    <extends/>
+    <summary>BrandBassador package for creating discount codes in Magento Webshop.</summary>
+    <description>BrandBassador package for creating discount codes in Magento Webshop.</description>
+    <notes>Implemented currency conversion.</notes>
+    <authors><author><name>AGVision Software</name><user>agvision</user><email>office@agvision.ro</email></author></authors>
+    <date>2016-02-03</date>
+    <time>15:55:47</time>
+    <contents><target name="magecommunity"><dir name="Brandbassador"><dir name="Coupons"><dir name="Helper"><file name="Coupon.php" hash="472015c2260759847d3ce858439d75b2"/></dir><dir name="Model"><file name="Coupon.php" hash="7a371922eec9c4cdec0e0f6ca8c2c778"/></dir><dir name="controllers"><file name="IndexController.php" hash="2c753607259e57c4c5b6868d7bf87261"/></dir><dir name="etc"><file name="config.xml" hash="84be57d73e38bbd7d287fa4055a8554c"/></dir></dir></dir></target><target name="mageetc"><dir name="modules"><file name="Brandbassador_Coupons.xml" hash="c959da5dbc5dae02c3faae5a38bd7422"/></dir></target></contents>
+    <compatible/>
+    <dependencies><required><php><min>5.2.0</min><max>6.0.0</max></php></required></dependencies>
+</package>

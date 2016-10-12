@@ -1,0 +1,59 @@
+<?xml version="1.0"?>
+<!--
+/**
+ * Magento
+ *
+ * @category    Brandbassador
+ * @package     Brandbassador_Coupons
+ */
+-->
+<config>
+    <modules>
+        <Brandbassador_Coupons>
+            <version>1.2.0</version>
+        </Brandbassador_Coupons>
+    </modules>
+    <global>
+        <models>
+            <coupons>
+                <class>Brandbassador_Coupons_Model</class>
+            </coupons>
+        </models>
+        <helpers>
+            <coupons>
+                <class>Brandbassador_Coupons_Helper</class>
+            </coupons>
+        </helpers>
+        <resources>
+            <coupons_setup>
+                <setup>
+                    <module>Brandbassador_Coupons</module>
+                </setup>
+            </coupons_setup>
+        </resources>
+        <blocks>
+            <coupons><class>Brandbassador_Coupons_Block</class></coupons>
+        </blocks>
+    </global>
+    <frontend>
+        <routers>
+            <coupons>
+                <use>standard</use>
+                <args>
+                    <module>Brandbassador_Coupons</module>
+                    <frontName>brandbassador</frontName>
+                </args>
+            </coupons>
+        </routers>
+        <layout>
+            <updates>
+                <coupons>
+                    <file>coupons.xml</file>
+                </coupons>
+            </updates>
+        </layout>
+    </frontend>
+    <default>
+        <auth_key>my_key</auth_key>
+    </default>
+</config>
